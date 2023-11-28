@@ -4,6 +4,30 @@
 
 Welcome to the Book Library API documentation. This API provides functionalities to manage a library of books, including user authentication and CRUD operations for books.
 
+## Installation
+
+### Clone the Repository
+
+To get started, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/book-library-api.git
+```
+
+### Navigate to the Project Directory
+
+```bash
+cd book-library-api
+```
+
+### Install Dependencies
+
+Use `pip` to install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Authentication
 
 ### Register
@@ -137,4 +161,14 @@ Welcome to the Book Library API documentation. This API provides functionalities
 | `/books/books` | POST | Create a new book. |
 | `/books/books/{book_id}` | PUT | Update details of a specific book. |
 | `/books/books/{book_id}` | DELETE | Delete a specific book. |
+
+## Running the App
+
+After installing the dependencies, you can run the app using the following command:
+
+```bash
+python app.py
+```
+
+The app will start, and you can access it at `http://127.0.0.1:5000/`.
 
