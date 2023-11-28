@@ -1,5 +1,3 @@
-# app/controllers/auth.py
-
 from flask import Blueprint, request, jsonify
 from app.models.user import User
 from app import db

@@ -1,5 +1,3 @@
-# app/models/book.py
-
 from app import db
 
 class Book(db.Model):

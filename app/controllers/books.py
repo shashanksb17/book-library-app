@@ -1,5 +1,3 @@
-# app/controllers/books.py
-
 from flask import Blueprint, jsonify, request
 from app.models.book import Book
 from app import db
